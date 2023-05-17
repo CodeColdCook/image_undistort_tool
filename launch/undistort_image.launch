@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- <rosparam command="load" file="$(find fisheye_flattener)/config/undistort_image_config.yaml" /> -->
+  <rosparam command="load" file="/home/mchris/catkin_workspace/mei_camera_tool_ws/src/image_undistort_tool/test_data/undistort_image_config_01.yaml" />
+  <node pkg="image_undistort_tool"
+    type="undistort_image"
+    name="undistort_image"
+    output="screen" 
+    respawn="false"
+    >
+    </node>
+</launch>

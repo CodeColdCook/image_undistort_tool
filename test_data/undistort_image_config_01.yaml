@@ -1,0 +1,18 @@
+fisheye:
+  imgWidth: 1920
+  imgHeight: 1080
+  fov_camera: 156
+  fov_center_roi: 156
+  cam_file: "/home/mchris/catkin_workspace/mei_camera_tool_ws/src/image_undistort_tool/test_data/intrinsic_cam01.yaml"
+  undistort_scale: 4
+
+undistort_image:
+  multi_image: 1
+  check_first_frame: 1
+  check_every_frame: 1
+  path_image_src: "/home/mchris/catkin_workspace/mei_camera_tool/src/fisheye-flattener/data/undistort_image/left0002.jpg"
+  path_image_dst: "/home/mchris/catkin_workspace/mei_camera_tool/src/fisheye-flattener/data/undistort_image/left0002_undistort.jpg"
+
+  folder_image_src: "/home/mchris/catkin_workspace/mei_camera_tool_ws/src/image_undistort_tool/test_data/image"
+  folder_image_dst: "/home/mchris/catkin_workspace/mei_camera_tool_ws/src/image_undistort_tool/test_data/undistorted_image"
+
