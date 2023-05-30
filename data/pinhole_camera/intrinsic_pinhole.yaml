@@ -1,0 +1,30 @@
+%YAML:1.0
+---
+PN: NA16
+width: 1280
+height: 720
+K: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [818.0525, 0, 617.9261,0, 818.9801, 359.8213,0, 0, 1]
+d: !!opencv-matrix
+   rows: 5
+   cols: 1
+   dt: d
+   data: [0.0411, 0.0030, 0, 0, 0]
+
+model_type: PINHOLE
+camera_name: camera
+image_width: 1280
+image_height: 720
+distortion_parameters:
+   k1: 0.0411
+   k2: 0.0030
+   p1: 0
+   p2: 0
+projection_parameters:
+   fx: 818.0525
+   fy: 818.9801
+   cx: 617.9261
+   cy: 359.8213
